@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/* font sizes and extra */
+.roboto-100 {
+    font-weight: 100 !important;
+}
+.roboto-300 {
+    font-weight: 300 !important;
+}
+
+.roboto-400{
+    font-weight: 400 !important;
+}
+
+.roboto-500{
+    font-weight: 500 !important;
+}
+
+.roboto-700{
+    font-weight: 700 !important;
+}
+
+.roboto-900{
+    font-weight: 900 !important;
+}
+
+.line-down{
+    letter-spacing: -4px;
+}
+
+.font-weight-normal {
+    font-weight: normal;
+}
+
+.custom-button-black{
+    border-radius: 50px !important;
+    width:11%;
+    background-color: black !important;
+}
+
+.custom-button-white{
+    border-radius: 50px !important;
+    border: 1px rgb(226, 220, 220) solid !important;
+    width:25%;
+    color:black !important;
+}
+
+/* top-nav */
+
+/* carousel */
+.car-back {
+    background-color: rgb(255, 225, 189);
+}
+
+.car-desc{
+    padding-top: 120px;
+}
+
+.car-button {
+    margin-bottom: 100px; 
+}
+
+.carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 1px black solid !important;
+    background-color: rgb(255, 225, 189);
+}
+
+.carousel-indicators .active{
+    background-color: black !important;
+}
+
+.car-rotate {
+    transform: rotate(270deg);
+}
+
+.car-undo-rotate {
+    transform: rotate(90deg);
+}
+
+/* what we do section */
+
+.content-text {
+    font-size:60px;
+    margin: 75px 75px;
+}
+
+
+
+
+
