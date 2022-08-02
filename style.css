@@ -36,30 +36,39 @@ body {
 
 .custom-button-black{
     border-radius: 50px !important;
-    width:11%;
+    width:13%;
     background-color: black !important;
+    white-space: nowrap; 
+    min-width: 150px;
 }
 
 .custom-button-white{
     border-radius: 50px !important;
     border: 1px rgb(226, 220, 220) solid !important;
     width:25%;
+    min-width: 130px;
     color:black !important;
 }
 
+.mb-100 {
+    margin-bottom: 100px; 
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+.mt-220 {
+    margin-top: 220px;
+}
+
+.mt-100 {
+    margin-top:100px;
+}
 /* top-nav */
 
-/* carousel */
+/* carousel top */
 .car-back {
     background-color: rgb(255, 225, 189);
-}
-
-.car-desc{
-    padding-top: 120px;
-}
-
-.car-button {
-    margin-bottom: 100px; 
 }
 
 .carousel .carousel-indicators button {
@@ -82,14 +91,54 @@ body {
     transform: rotate(90deg);
 }
 
+.car-fix-top {
+    object-fit: cover;
+    object-position: center;
+    height: 55vh;
+    overflow: hidden;
+}
+
 /* what we do section */
 
 .content-text {
-    font-size:60px;
     margin: 75px 75px;
 }
 
+.content-texts {
+    color:grey;
+    font-size: 20px;
+}
+
+/* our best work section */
+
+.padding-bottom {
+    padding-bottom: 24px;
+}
+
+/* our best team section */
+
+.img-borders {
+    border-radius: 50% !important;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 5rem !important;
+    width: 5rem !important;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    opacity:1 !important; 
+}
 
 
+.carousel-control-next-icon:hover, .carousel-control-prev-icon:hover {
+    filter: invert(1) grayscale(100);
+}
 
+.car-fix {
+    object-fit: cover;
+    object-position: center;
+    height: 85vh;
+    overflow: hidden;
+}
 
