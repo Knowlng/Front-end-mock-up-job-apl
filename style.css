@@ -64,6 +64,10 @@ body {
 .mt-100 {
     margin-top:100px;
 }
+
+.mb-180 {
+    margin-bottom: 180px;
+}
 /* top-nav */
 
 /* carousel top */
@@ -76,7 +80,7 @@ body {
     height: 10px;
     border-radius: 100%;
     border: 1px black solid !important;
-    background-color: rgb(255, 225, 189);
+    background-color: none;
 }
 
 .carousel-indicators .active{
@@ -141,4 +145,11 @@ body {
     height: 85vh;
     overflow: hidden;
 }
+
+/* clients says section */
+
+.car-indicator-margin {
+    height: 60vh;
+}
+
 
