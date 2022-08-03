@@ -42,16 +42,45 @@ body {
     min-width: 150px;
 }
 
+.custom-button-black:hover {
+    background-color: rgb(255, 203, 147) !important;
+    color:black !important;
+    border-color: rgb(255, 203, 147) !important;
+
+}
+
 .custom-button-white{
     border-radius: 50px !important;
     border: 1px rgb(226, 220, 220) solid !important;
     width:25%;
     min-width: 130px;
     color:black !important;
+    background-color: white !important;
+}
+
+.custom-button-white-darkback {
+    border-radius: 50px !important;
+    border: 1px rgb(226, 220, 220) solid !important;
+    width:25%;
+    min-width: 130px;
+    color:black !important;
+    background-color: white !important;
+}
+
+.custom-button-white-darkback:hover {
+    background-color: rgb(255, 203, 147) !important;
+}
+
+.custom-button-white:hover {
+    border: 1px black solid !important;
 }
 
 .mb-100 {
     margin-bottom: 100px; 
+}
+
+.mb-80 {
+    margin-bottom: 80px;
 }
 
 .mt-80 {
@@ -65,14 +94,44 @@ body {
     margin-top:100px;
 }
 
+.mb-160 {
+    margin-bottom:160px;
+}
+
 .mb-180 {
     margin-bottom: 180px;
 }
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.text-grey {
+    color:grey;
+}
+
+.font-size-12 {
+    font-size: 32px !important;
+}
 /* top-nav */
+
+.navigation a:hover {
+    cursor: pointer;
+    opacity: 100% !important;
+    color: black !important;
+}
 
 /* carousel top */
 .car-back {
     background-color: rgb(255, 225, 189);
+}
+
+.resp-f-size {
+    font-size: calc(1rem + 1.5vw);
 }
 
 .carousel .carousel-indicators button {
@@ -95,11 +154,31 @@ body {
     transform: rotate(90deg);
 }
 
+.car-rotate-180 {
+    transform: rotate(180deg);
+}
+
 .car-fix-top {
     object-fit: cover;
     object-position: center;
     height: 55vh;
     overflow: hidden;
+}
+
+.indi-right {
+    left: auto !important;
+    margin-right: auto !important;
+    bottom: 45% !important;
+}
+
+.car-controls-down {
+    top:auto !important;
+    width:100% !important;
+}
+
+.car-controls-up {
+    bottom:auto !important;
+    width:100% !important;
 }
 
 /* what we do section */
@@ -142,14 +221,100 @@ body {
 .car-fix {
     object-fit: cover;
     object-position: center;
-    height: 85vh;
+    height: 80vh;
     overflow: hidden;
+}
+
+.car-indi-bottom-team {
+    bottom: 8% !important;
 }
 
 /* clients says section */
 
-.car-indicator-margin {
-    height: 60vh;
+.car-indi-bottom {
+    bottom: 15% !important;
+}
+
+/* get in touch section */
+
+.get-in-touch {
+    background-color: black;
+    color:white;
+}
+
+#message {
+    resize: none !important;
+}
+
+#name, #message, #email {
+    background-color: black !important;
+    width:100%;
+    margin-bottom: 45px;
+    color:white;
+    opacity: 60%;
+    font-size: 20px;
+    padding-bottom:10px;
+}
+
+#name, #email {
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    border-bottom: 1px grey solid;
+}
+
+.label-message {
+    color:grey;
+    opacity: 60%;
+    font-size: 18px;
+}
+
+#message {
+    border-left:none;
+    border-right: none;
+    height:100px;
+}
+
+.get-in-touch .d-flex img:hover{
+    filter: opacity(0.7) drop-shadow(0 0 0 rgb(207, 107, 0)); 
+}
+
+/* media */
+
+@media screen and (max-width:1200px) {
+    .get-in-touch .d-flex {
+        width:100% !important; 
+    }
+}
+
+@media screen and (max-width:768px) {
+    .media-width-100 .item {
+        width:100% !important; 
+    }
+
+    .media-margin-50 {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .indi-right {
+        bottom:80% !important;
+    }
+}
+
+@media screen and (min-width:496px) {
+    .name-spec br {
+        display: none;
+    }
+
 }
 
 
+
+/* responsive font size what we do and add hover effects*/
+/* add hover effects to carousels */
+/* remove br <450 from clients says */
+/* add abosolute/relative positions to our best work */
+/* php code to send message */
