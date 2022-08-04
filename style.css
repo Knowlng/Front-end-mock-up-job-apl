@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif !important;
 }
 
-/* font sizes and extra */
+/* font sizes, weights and extra */
 .roboto-100 {
     font-weight: 100 !important;
 }
@@ -75,6 +75,10 @@ body {
     border: 1px black solid !important;
 }
 
+.top-carousel .item a, .best-team .item a, .what-we-do a{
+    color: black;
+}
+
 .mb-100 {
     margin-bottom: 100px; 
 }
@@ -114,8 +118,12 @@ body {
     color:grey;
 }
 
-.font-size-12 {
-    font-size: 32px !important;
+.bck-yellow {
+    background-color: rgb(255, 225, 189);
+}
+
+.fs-20 {
+    font-size: 20px;
 }
 /* top-nav */
 
@@ -126,9 +134,6 @@ body {
 }
 
 /* carousel top */
-.car-back {
-    background-color: rgb(255, 225, 189);
-}
 
 .resp-f-size {
     font-size: calc(1rem + 1.5vw);
@@ -181,21 +186,45 @@ body {
     width:100% !important;
 }
 
+.top-carousel .item a:hover, .best-team .item a:hover {
+    color: rgb(255, 203, 147);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    cursor: pointer;
+}
+
 /* what we do section */
 
-.content-text {
-    margin: 75px 75px;
+.resp-f-size2 {
+    font-size: calc(1.275rem + .7vw);
 }
 
-.content-texts {
-    color:grey;
-    font-size: 20px;
+.what-we-do a:hover {
+    color: rgb(255, 225, 189);
 }
-
 /* our best work section */
 
 .padding-bottom {
     padding-bottom: 24px;
+}
+
+.work-hover-wh {
+    width:100%;
+    height: 50%;
+}
+
+.mhw-364 {
+    max-width:364px;
+    max-height:364px;
+}
+
+.mhw-364x590 {
+    max-width:364px;
+    max-height:590px;
+}
+
+.pos-364x590 {
+    bottom:0;
+    left:40px;
 }
 
 /* our best team section */
@@ -285,6 +314,9 @@ body {
     .get-in-touch .d-flex {
         width:100% !important; 
     }
+    .r-br-1200 br {
+        display: none;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -304,17 +336,24 @@ body {
     }
 }
 
-@media screen and (min-width:496px) {
-    .name-spec br {
+@media screen and (max-width:498px) {
+    .r-max-br br {
         display: none;
     }
 
 }
 
 
+/* name specific */
+@media screen and (min-width:498px) {
+    .r-min-br br {
+        display: none;
+    }
 
-/* responsive font size what we do and add hover effects*/
-/* add hover effects to carousels */
-/* remove br <450 from clients says */
+}
+
+/* fix margin our best work */
+/* add a href and cursor pointer to our best work */
 /* add abosolute/relative positions to our best work */
-/* php code to send message */
+/* js to send message */
+/* navbar */
